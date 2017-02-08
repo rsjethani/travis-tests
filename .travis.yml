@@ -15,8 +15,6 @@ addons:
 
 
 script:
-  - python code.py
   - python --version
+  - python code.py
 
-notifications:
-  webhooks: https://galaxy.ansible.com/api/v1/notifications/
